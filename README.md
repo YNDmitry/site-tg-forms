@@ -9,6 +9,13 @@ $ npm install
 
 ```
 
+## Change env variables
+
+```bash
+$ nano site-tg-forms/.env.prod
+```
+Add a telegram token (TELEGRAM_BOT_API_KEY) for your bot and the IDs (ADMIN_IDS) of the users who will receive the forms
+
 ## Running the app
 
 ```bash
